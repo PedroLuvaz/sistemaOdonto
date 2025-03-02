@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
 using Controllers.Map;
+using Entidades;
 
 namespace Controllers.Context
 {
@@ -16,6 +17,9 @@ namespace Controllers.Context
         
         }
 
+        public DbSet<Consulta> Consultas{get; set;}
+        public DbSet<Paciente> Pacientes{get; set;}
+        public DbSet<Dentista> Dentistas{get; set;}
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             Database.SetInitializer<SistemContext>(null);

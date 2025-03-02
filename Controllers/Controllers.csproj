@@ -52,15 +52,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Context\SistemContext.cs" />
     <Compile Include="Map\ConsultaMap.cs" />
     <Compile Include="Map\DentistaMap.cs" />
     <Compile Include="Map\PacienteMap.cs" />
+    <Compile Include="Migrations\202503020335136_banco.cs" />
+    <Compile Include="Migrations\202503020335136_banco.Designer.cs">
+      <DependentUpon>202503020335136_banco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Migrations\" />
     <Folder Include="Repositorios\" />
   </ItemGroup>
   <ItemGroup>
@@ -72,6 +75,11 @@
       <Project>{35FF66FC-8D50-456B-B833-BF94AA2A9803}</Project>
       <Name>Entidades</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202503020335136_banco.resx">
+      <DependentUpon>202503020335136_banco.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

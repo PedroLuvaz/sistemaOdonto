@@ -1,0 +1,16 @@
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Controllers\bin\Debug\Controllers.dll.config
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Controllers\bin\Debug\Controllers.dll
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Controllers\bin\Debug\Controllers.pdb
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Controllers\bin\Debug\Entidades.dll
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Controllers\bin\Debug\EntityFramework.dll
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Controllers\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Controllers\bin\Debug\Entidades.pdb
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Controllers\bin\Debug\EntityFramework.xml
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Controllers\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Controllers\obj\Debug\Controllers.csproj.AssemblyReference.cache
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Controllers\obj\Debug\Controllers.csproj.CoreCompileInputs.cache
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Controllers\obj\Debug\Controll.01F35609.Up2Date
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Controllers\obj\Debug\Controllers.dll
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Controllers\obj\Debug\Controllers.pdb
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Controllers\obj\Debug\Controllers.Migrations.banco.resources
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Controllers\obj\Debug\Controllers.csproj.GenerateResource.cache
