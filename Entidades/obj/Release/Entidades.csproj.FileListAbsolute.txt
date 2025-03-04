@@ -1,0 +1,6 @@
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Entidades\bin\Release\Entidades.dll
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Entidades\bin\Release\Entidades.pdb
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Entidades\obj\Release\Entidades.csproj.AssemblyReference.cache
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Entidades\obj\Release\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Entidades\obj\Release\Entidades.dll
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Entidades\obj\Release\Entidades.pdb

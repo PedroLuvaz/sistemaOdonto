@@ -4,6 +4,62 @@
     "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\SistemaOdonto\\SistemaOdonto.csproj": {}
   },
   "projects": {
+    "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Controllers\\Controllers.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Controllers\\Controllers.csproj",
+        "projectName": "Controllers",
+        "projectPath": "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Controllers\\Controllers.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Entidades\\Entidades.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Entidades\\Entidades.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Entidades\\Entidades.csproj",
+        "projectName": "Entidades",
+        "projectPath": "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Entidades\\Entidades.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Interfaces\\Interfaces.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Interfaces\\Interfaces.csproj",
+        "projectName": "Interfaces",
+        "projectPath": "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Interfaces\\Interfaces.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Entidades\\Entidades.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\SistemaOdonto\\SistemaOdonto.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -31,7 +87,20 @@
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Controllers\\Controllers.csproj": {
+                "projectPath": "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Controllers\\Controllers.csproj"
+              },
+              "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Entidades\\Entidades.csproj"
+              },
+              "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Interfaces\\Interfaces.csproj"
+              },
+              "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\WcfService\\WcfService.csproj": {
+                "projectPath": "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\WcfService\\WcfService.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -76,6 +145,32 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\WcfService\\WcfService.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\WcfService\\WcfService.csproj",
+        "projectName": "WcfService",
+        "projectPath": "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\WcfService\\WcfService.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Controllers\\Controllers.csproj": {
+                "projectPath": "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Controllers\\Controllers.csproj"
+              },
+              "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Entidades\\Entidades.csproj"
+              },
+              "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\Interfaces\\Interfaces.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

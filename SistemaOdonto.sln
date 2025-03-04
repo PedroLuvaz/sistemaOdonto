@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35818.85 d17.13
+VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaOdonto", "SistemaOdonto\SistemaOdonto.csproj", "{789C2A7E-9FB3-4BD8-83BF-01C15AA38F27}"
 EndProject
@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "Controllers\
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{35FF66FC-8D50-456B-B833-BF94AA2A9803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{908E119C-B696-4398-A371-BB60E8A290B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService", "WcfService\WcfService.csproj", "{AFC47A26-1D3E-4BD6-A524-74CEE231C4BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +42,14 @@ Global
 		{35FF66FC-8D50-456B-B833-BF94AA2A9803}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35FF66FC-8D50-456B-B833-BF94AA2A9803}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35FF66FC-8D50-456B-B833-BF94AA2A9803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908E119C-B696-4398-A371-BB60E8A290B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908E119C-B696-4398-A371-BB60E8A290B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908E119C-B696-4398-A371-BB60E8A290B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908E119C-B696-4398-A371-BB60E8A290B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC47A26-1D3E-4BD6-A524-74CEE231C4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC47A26-1D3E-4BD6-A524-74CEE231C4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC47A26-1D3E-4BD6-A524-74CEE231C4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC47A26-1D3E-4BD6-A524-74CEE231C4BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +58,8 @@ Global
 		{789C2A7E-9FB3-4BD8-83BF-01C15AA38F27} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{46C3CF55-21B4-4C57-A4AE-84FA96170AF0} = {36883103-1570-47FA-90FA-3B379C85CA9A}
 		{35FF66FC-8D50-456B-B833-BF94AA2A9803} = {7E807041-0C47-491D-AA28-D8D1729434EF}
+		{908E119C-B696-4398-A371-BB60E8A290B4} = {AD00020B-6224-426A-86BD-35677930E5D6}
+		{AFC47A26-1D3E-4BD6-A524-74CEE231C4BE} = {AD00020B-6224-426A-86BD-35677930E5D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB7C8392-DE67-4F6F-896A-63E0C7FA7EA1}

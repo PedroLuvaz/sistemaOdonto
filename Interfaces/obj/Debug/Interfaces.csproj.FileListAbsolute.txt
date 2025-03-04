@@ -1,0 +1,14 @@
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Interfaces\bin\Debug\Interfaces.dll.config
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Interfaces\bin\Debug\Interfaces.dll
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Interfaces\bin\Debug\Entidades.dll
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Interfaces\bin\Debug\EntityFramework.dll
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Interfaces\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Interfaces\bin\Debug\Entidades.pdb
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Interfaces\bin\Debug\EntityFramework.xml
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Interfaces\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Interfaces\obj\Debug\Interfaces.csproj.AssemblyReference.cache
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Interfaces\obj\Debug\Interfaces.csproj.Up2Date
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Interfaces\obj\Debug\Interfaces.dll
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Interfaces\obj\Debug\Interfaces.pdb

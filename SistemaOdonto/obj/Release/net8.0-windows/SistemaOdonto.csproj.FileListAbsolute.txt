@@ -1,0 +1,10 @@
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\SistemaOdonto\obj\Release\net8.0-windows\SistemaOdonto.csproj.AssemblyReference.cache
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\SistemaOdonto\obj\Release\net8.0-windows\SistemaOdonto.FrmCadDentista.resources
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\SistemaOdonto\obj\Release\net8.0-windows\SistemaOdonto.Form1.resources
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\SistemaOdonto\obj\Release\net8.0-windows\SistemaOdonto.Properties.Resources.resources
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\SistemaOdonto\obj\Release\net8.0-windows\SistemaOdonto.csproj.GenerateResource.cache
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\SistemaOdonto\obj\Release\net8.0-windows\SistemaOdonto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\SistemaOdonto\obj\Release\net8.0-windows\SistemaOdonto.AssemblyInfoInputs.cache
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\SistemaOdonto\obj\Release\net8.0-windows\SistemaOdonto.AssemblyInfo.cs
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\SistemaOdonto\obj\Release\net8.0-windows\SistemaOdonto.csproj.CoreCompileInputs.cache
+C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\SistemaOdonto\obj\Release\net8.0-windows\SistemaOdonto.sourcelink.json
