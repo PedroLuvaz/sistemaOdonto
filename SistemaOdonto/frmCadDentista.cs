@@ -7,15 +7,48 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WcfService;
 
 namespace SistemaOdonto
 {
     public partial class frmCadDentista : Form
     {
+        DentistaService service = new DentistaService();
         public frmCadDentista()
         {
             InitializeComponent();
+            txtNome.Text = txtCelular.Text;
         }
+
+        public string ValidarCad()
+        {
+            ts.ForeColor = Color.Red;
+            if(txtNome.Text == "")
+            {
+                return "Preencha o campo nome!";
+            }else if(txtCelular.Text == string.Empty)
+            {
+                return "Preencha o campo celular!";
+            }
+            else if (txtTelefone.Text == string.Empty)
+            {
+                return "Preencha o campo telefone!";
+            }
+            else if (txtCRO.Text == string.Empty)
+            {
+                return "Preencha o campo CRO!";
+            }
+            else if (txtEmail.Text == string.Empty)
+            {
+                return "Preencha o campo email!";
+            }
+            else
+            {
+                ts.ForeColor = Color.Black;
+                return "Sucesso!";
+            }
+            }
+
 
         private void label1_Click(object sender, EventArgs e)
         {

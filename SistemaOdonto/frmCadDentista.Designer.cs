@@ -40,13 +40,13 @@
             txtNome = new TextBox();
             txtEmail = new TextBox();
             txtTelefone = new MaskedTextBox();
-            maskedTextBox1 = new MaskedTextBox();
-            maskedTextBox2 = new MaskedTextBox();
+            txtCelular = new MaskedTextBox();
+            txtCRO = new MaskedTextBox();
             btnSave = new Button();
             button1 = new Button();
             button2 = new Button();
             statusStrip1 = new StatusStrip();
-            toolStripStatusLabel1 = new ToolStripStatusLabel();
+            ts = new ToolStripStatusLabel();
             toolStripStatusMsg = new ToolStripStatusLabel();
             statusStrip1.SuspendLayout();
             SuspendLayout();
@@ -121,7 +121,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(76, 21);
+            label1.Location = new Point(87, 21);
             label1.Name = "label1";
             label1.Size = new Size(25, 20);
             label1.TabIndex = 7;
@@ -129,7 +129,7 @@
             // 
             // txtNome
             // 
-            txtNome.Location = new Point(87, 48);
+            txtNome.Location = new Point(87, 47);
             txtNome.Name = "txtNome";
             txtNome.Size = new Size(175, 27);
             txtNome.TabIndex = 8;
@@ -150,21 +150,21 @@
             txtTelefone.TabIndex = 10;
             txtTelefone.MaskInputRejected += maskedTextBox1_MaskInputRejected;
             // 
-            // maskedTextBox1
+            // txtCelular
             // 
-            maskedTextBox1.Location = new Point(87, 149);
-            maskedTextBox1.Mask = "(00) 0.0000-0000";
-            maskedTextBox1.Name = "maskedTextBox1";
-            maskedTextBox1.Size = new Size(175, 27);
-            maskedTextBox1.TabIndex = 11;
+            txtCelular.Location = new Point(87, 149);
+            txtCelular.Mask = "(00) 0.0000-0000";
+            txtCelular.Name = "txtCelular";
+            txtCelular.Size = new Size(175, 27);
+            txtCelular.TabIndex = 11;
             // 
-            // maskedTextBox2
+            // txtCRO
             // 
-            maskedTextBox2.Location = new Point(87, 185);
-            maskedTextBox2.Mask = "?? 00-000";
-            maskedTextBox2.Name = "maskedTextBox2";
-            maskedTextBox2.Size = new Size(175, 27);
-            maskedTextBox2.TabIndex = 12;
+            txtCRO.Location = new Point(87, 185);
+            txtCRO.Mask = "?? 00-000";
+            txtCRO.Name = "txtCRO";
+            txtCRO.Size = new Size(175, 27);
+            txtCRO.TabIndex = 12;
             // 
             // btnSave
             // 
@@ -212,7 +212,7 @@
             // statusStrip1
             // 
             statusStrip1.ImageScalingSize = new Size(20, 20);
-            statusStrip1.Items.AddRange(new ToolStripItem[] { toolStripStatusLabel1, toolStripStatusMsg });
+            statusStrip1.Items.AddRange(new ToolStripItem[] { ts, toolStripStatusMsg });
             statusStrip1.Location = new Point(0, 424);
             statusStrip1.Name = "statusStrip1";
             statusStrip1.Size = new Size(800, 26);
@@ -220,11 +220,11 @@
             statusStrip1.Text = "statusStrip1";
             statusStrip1.ItemClicked += statusStrip1_ItemClicked;
             // 
-            // toolStripStatusLabel1
+            // ts
             // 
-            toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            toolStripStatusLabel1.Size = new Size(85, 20);
-            toolStripStatusLabel1.Text = "Mensagem:";
+            ts.Name = "ts";
+            ts.Size = new Size(85, 20);
+            ts.Text = "Mensagem:";
             // 
             // toolStripStatusMsg
             // 
@@ -241,8 +241,8 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(btnSave);
-            Controls.Add(maskedTextBox2);
-            Controls.Add(maskedTextBox1);
+            Controls.Add(txtCRO);
+            Controls.Add(txtCelular);
             Controls.Add(txtTelefone);
             Controls.Add(txtEmail);
             Controls.Add(txtNome);
@@ -280,13 +280,13 @@
         private TextBox txtNome;
         private TextBox txtEmail;
         private MaskedTextBox txtTelefone;
-        private MaskedTextBox maskedTextBox1;
-        private MaskedTextBox maskedTextBox2;
+        private MaskedTextBox txtCelular;
+        private MaskedTextBox txtCRO;
         private Button btnSave;
         private Button button1;
         private Button button2;
         private StatusStrip statusStrip1;
-        private ToolStripStatusLabel toolStripStatusLabel1;
+        private ToolStripStatusLabel ts;
         private ToolStripStatusLabel toolStripStatusMsg;
     }
 }
