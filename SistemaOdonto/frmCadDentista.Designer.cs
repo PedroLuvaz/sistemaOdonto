@@ -29,53 +29,39 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCadDentista));
-            lblCod = new Label();
             lblName = new Label();
             lblEmail = new Label();
             lblTelefone = new Label();
             lblCelular = new Label();
             lblCRO = new Label();
             panel1 = new Panel();
-            label1 = new Label();
-            txtNome = new TextBox();
             txtEmail = new TextBox();
             txtTelefone = new MaskedTextBox();
             txtCelular = new MaskedTextBox();
             txtCRO = new MaskedTextBox();
             btnSave = new Button();
-            button1 = new Button();
-            button2 = new Button();
             statusStrip1 = new StatusStrip();
             ts = new ToolStripStatusLabel();
-            toolStripStatusMsg = new ToolStripStatusLabel();
+            tsNenhuma = new ToolStripStatusLabel();
+            txtNome = new TextBox();
             statusStrip1.SuspendLayout();
             SuspendLayout();
-            // 
-            // lblCod
-            // 
-            lblCod.AutoSize = true;
-            lblCod.Location = new Point(12, 20);
-            lblCod.Name = "lblCod";
-            lblCod.Size = new Size(58, 20);
-            lblCod.TabIndex = 0;
-            lblCod.Text = "Código";
-            lblCod.Click += label1_Click;
             // 
             // lblName
             // 
             lblName.AutoSize = true;
-            lblName.Location = new Point(12, 50);
+            lblName.Location = new Point(10, 38);
             lblName.Name = "lblName";
-            lblName.Size = new Size(53, 20);
+            lblName.Size = new Size(43, 15);
             lblName.TabIndex = 1;
             lblName.Text = "Nome:";
             // 
             // lblEmail
             // 
             lblEmail.AutoSize = true;
-            lblEmail.Location = new Point(12, 84);
+            lblEmail.Location = new Point(10, 63);
             lblEmail.Name = "lblEmail";
-            lblEmail.Size = new Size(49, 20);
+            lblEmail.Size = new Size(39, 15);
             lblEmail.TabIndex = 2;
             lblEmail.Text = "Email:";
             lblEmail.Click += label3_Click;
@@ -83,18 +69,18 @@
             // lblTelefone
             // 
             lblTelefone.AutoSize = true;
-            lblTelefone.Location = new Point(12, 121);
+            lblTelefone.Location = new Point(10, 91);
             lblTelefone.Name = "lblTelefone";
-            lblTelefone.Size = new Size(69, 20);
+            lblTelefone.Size = new Size(54, 15);
             lblTelefone.TabIndex = 3;
             lblTelefone.Text = "Telefone:";
             // 
             // lblCelular
             // 
             lblCelular.AutoSize = true;
-            lblCelular.Location = new Point(12, 156);
+            lblCelular.Location = new Point(10, 117);
             lblCelular.Name = "lblCelular";
-            lblCelular.Size = new Size(58, 20);
+            lblCelular.Size = new Size(47, 15);
             lblCelular.TabIndex = 4;
             lblCelular.Text = "Celular:";
             lblCelular.Click += label5_Click;
@@ -102,9 +88,9 @@
             // lblCRO
             // 
             lblCRO.AutoSize = true;
-            lblCRO.Location = new Point(12, 192);
+            lblCRO.Location = new Point(10, 144);
             lblCRO.Name = "lblCRO";
-            lblCRO.Size = new Size(41, 20);
+            lblCRO.Size = new Size(34, 15);
             lblCRO.TabIndex = 5;
             lblCRO.Text = "CRO:";
             lblCRO.Click += label6_Click;
@@ -113,109 +99,77 @@
             // 
             panel1.BackgroundImage = Properties.Resources._2560667;
             panel1.BackgroundImageLayout = ImageLayout.Stretch;
-            panel1.Location = new Point(390, 13);
+            panel1.Location = new Point(341, 10);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(378, 409);
+            panel1.Size = new Size(331, 307);
             panel1.TabIndex = 6;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(87, 21);
-            label1.Name = "label1";
-            label1.Size = new Size(25, 20);
-            label1.TabIndex = 7;
-            label1.Text = "01";
-            // 
-            // txtNome
-            // 
-            txtNome.Location = new Point(87, 47);
-            txtNome.Name = "txtNome";
-            txtNome.Size = new Size(175, 27);
-            txtNome.TabIndex = 8;
             // 
             // txtEmail
             // 
-            txtEmail.Location = new Point(87, 81);
+            txtEmail.Location = new Point(76, 61);
+            txtEmail.Margin = new Padding(3, 2, 3, 2);
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(175, 27);
+            txtEmail.Size = new Size(154, 23);
             txtEmail.TabIndex = 9;
             // 
             // txtTelefone
             // 
-            txtTelefone.Location = new Point(87, 114);
-            txtTelefone.Mask = "(00) 0.0000-0000";
+            txtTelefone.Location = new Point(76, 86);
+            txtTelefone.Margin = new Padding(3, 2, 3, 2);
+            txtTelefone.Mask = "(00) 0000-0000";
             txtTelefone.Name = "txtTelefone";
-            txtTelefone.Size = new Size(175, 27);
+            txtTelefone.Size = new Size(154, 23);
             txtTelefone.TabIndex = 10;
+            txtTelefone.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
             txtTelefone.MaskInputRejected += maskedTextBox1_MaskInputRejected;
             // 
             // txtCelular
             // 
-            txtCelular.Location = new Point(87, 149);
+            txtCelular.Location = new Point(76, 112);
+            txtCelular.Margin = new Padding(3, 2, 3, 2);
             txtCelular.Mask = "(00) 0.0000-0000";
             txtCelular.Name = "txtCelular";
-            txtCelular.Size = new Size(175, 27);
+            txtCelular.Size = new Size(154, 23);
             txtCelular.TabIndex = 11;
+            txtCelular.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
             // 
             // txtCRO
             // 
-            txtCRO.Location = new Point(87, 185);
+            txtCRO.CutCopyMaskFormat = MaskFormat.ExcludePromptAndLiterals;
+            txtCRO.Location = new Point(76, 139);
+            txtCRO.Margin = new Padding(3, 2, 3, 2);
             txtCRO.Mask = "?? 00-000";
             txtCRO.Name = "txtCRO";
-            txtCRO.Size = new Size(175, 27);
+            txtCRO.Size = new Size(154, 23);
             txtCRO.TabIndex = 12;
+            txtCRO.MaskInputRejected += txtCRO_MaskInputRejected;
             // 
             // btnSave
             // 
             btnSave.BackColor = SystemColors.Control;
             btnSave.BackgroundImage = Properties.Resources.salvar2;
-            btnSave.BackgroundImageLayout = ImageLayout.Center;
+            btnSave.BackgroundImageLayout = ImageLayout.Zoom;
             btnSave.Cursor = Cursors.Hand;
             btnSave.FlatAppearance.BorderSize = 0;
             btnSave.FlatStyle = FlatStyle.Flat;
-            btnSave.Location = new Point(12, 315);
+            btnSave.Location = new Point(102, 233);
+            btnSave.Margin = new Padding(3, 2, 3, 2);
             btnSave.Name = "btnSave";
-            btnSave.Size = new Size(94, 66);
+            btnSave.Size = new Size(82, 50);
             btnSave.TabIndex = 13;
             btnSave.TextAlign = ContentAlignment.MiddleRight;
             btnSave.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
-            button1.BackgroundImageLayout = ImageLayout.Center;
-            button1.Cursor = Cursors.Hand;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Location = new Point(144, 315);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 66);
-            button1.TabIndex = 14;
-            button1.TextAlign = ContentAlignment.MiddleRight;
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
-            button2.BackgroundImageLayout = ImageLayout.Center;
-            button2.Cursor = Cursors.Hand;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Location = new Point(274, 315);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 66);
-            button2.TabIndex = 15;
-            button2.TextAlign = ContentAlignment.MiddleRight;
-            button2.UseVisualStyleBackColor = true;
+            btnSave.Click += btnSave_Click;
             // 
             // statusStrip1
             // 
             statusStrip1.ImageScalingSize = new Size(20, 20);
-            statusStrip1.Items.AddRange(new ToolStripItem[] { ts, toolStripStatusMsg });
-            statusStrip1.Location = new Point(0, 424);
+            statusStrip1.Items.AddRange(new ToolStripItem[] { ts, tsNenhuma });
+            statusStrip1.Location = new Point(0, 316);
             statusStrip1.Name = "statusStrip1";
-            statusStrip1.Size = new Size(800, 26);
+            statusStrip1.Padding = new Padding(1, 0, 12, 0);
+            statusStrip1.Size = new Size(700, 22);
             statusStrip1.TabIndex = 16;
             statusStrip1.Text = "statusStrip1";
             statusStrip1.ItemClicked += statusStrip1_ItemClicked;
@@ -223,39 +177,44 @@
             // ts
             // 
             ts.Name = "ts";
-            ts.Size = new Size(85, 20);
+            ts.Size = new Size(69, 17);
             ts.Text = "Mensagem:";
             // 
-            // toolStripStatusMsg
+            // tsNenhuma
             // 
-            toolStripStatusMsg.Name = "toolStripStatusMsg";
-            toolStripStatusMsg.Size = new Size(65, 20);
-            toolStripStatusMsg.Text = "Nenhum";
+            tsNenhuma.Name = "tsNenhuma";
+            tsNenhuma.Size = new Size(60, 17);
+            tsNenhuma.Text = "Nenhuma";
+            // 
+            // txtNome
+            // 
+            txtNome.Location = new Point(76, 34);
+            txtNome.Margin = new Padding(3, 2, 3, 2);
+            txtNome.Name = "txtNome";
+            txtNome.Size = new Size(154, 23);
+            txtNome.TabIndex = 17;
             // 
             // frmCadDentista
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(700, 338);
+            Controls.Add(txtNome);
             Controls.Add(statusStrip1);
-            Controls.Add(button2);
-            Controls.Add(button1);
             Controls.Add(btnSave);
             Controls.Add(txtCRO);
             Controls.Add(txtCelular);
             Controls.Add(txtTelefone);
             Controls.Add(txtEmail);
-            Controls.Add(txtNome);
-            Controls.Add(label1);
             Controls.Add(panel1);
             Controls.Add(lblCRO);
             Controls.Add(lblCelular);
             Controls.Add(lblTelefone);
             Controls.Add(lblEmail);
             Controls.Add(lblName);
-            Controls.Add(lblCod);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(3, 2, 3, 2);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "frmCadDentista";
@@ -268,25 +227,20 @@
         }
 
         #endregion
-
-        private Label lblCod;
         private Label lblName;
         private Label lblEmail;
         private Label lblTelefone;
         private Label lblCelular;
         private Label lblCRO;
         private Panel panel1;
-        private Label label1;
-        private TextBox txtNome;
         private TextBox txtEmail;
         private MaskedTextBox txtTelefone;
         private MaskedTextBox txtCelular;
         private MaskedTextBox txtCRO;
         private Button btnSave;
-        private Button button1;
-        private Button button2;
         private StatusStrip statusStrip1;
         private ToolStripStatusLabel ts;
-        private ToolStripStatusLabel toolStripStatusMsg;
+        private TextBox txtNome;
+        private ToolStripStatusLabel tsNenhuma;
     }
 }

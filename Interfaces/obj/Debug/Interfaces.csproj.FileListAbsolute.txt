@@ -12,3 +12,17 @@ C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Interfaces\
 C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Interfaces\obj\Debug\Interfaces.csproj.Up2Date
 C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Interfaces\obj\Debug\Interfaces.dll
 C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Interfaces\obj\Debug\Interfaces.pdb
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Interfaces\bin\Debug\Interfaces.dll.config
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Interfaces\bin\Debug\Interfaces.dll
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Interfaces\bin\Debug\Entidades.dll
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Interfaces\bin\Debug\EntityFramework.dll
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Interfaces\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Interfaces\bin\Debug\Entidades.pdb
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Interfaces\bin\Debug\EntityFramework.xml
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Interfaces\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Interfaces\obj\Debug\Interfaces.csproj.AssemblyReference.cache
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Interfaces\obj\Debug\Interfaces.csproj.Up2Date
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Interfaces\obj\Debug\Interfaces.dll
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Interfaces\obj\Debug\Interfaces.pdb

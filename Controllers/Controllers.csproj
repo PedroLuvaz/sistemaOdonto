@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
@@ -56,15 +56,19 @@
     <Compile Include="Map\ConsultaMap.cs" />
     <Compile Include="Map\DentistaMap.cs" />
     <Compile Include="Map\PacienteMap.cs" />
-    <Compile Include="Migrations\202503020335136_banco.cs" />
-    <Compile Include="Migrations\202503020335136_banco.Designer.cs">
-      <DependentUpon>202503020335136_banco.cs</DependentUpon>
+    <Compile Include="Migrations\202503061536480_banco.cs" />
+    <Compile Include="Migrations\202503061536480_banco.Designer.cs">
+      <DependentUpon>202503061536480_banco.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorios\DentistaRep.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202503061536480_banco.resx">
+      <DependentUpon>202503061536480_banco.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
@@ -74,11 +78,6 @@
       <Project>{35FF66FC-8D50-456B-B833-BF94AA2A9803}</Project>
       <Name>Entidades</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\202503020335136_banco.resx">
-      <DependentUpon>202503020335136_banco.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -14,3 +14,19 @@ C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Controllers
 C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Controllers\obj\Debug\Controllers.pdb
 C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Controllers\obj\Debug\Controllers.Migrations.banco.resources
 C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\Controllers\obj\Debug\Controllers.csproj.GenerateResource.cache
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Controllers\bin\Debug\Controllers.dll.config
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Controllers\bin\Debug\Controllers.dll
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Controllers\bin\Debug\Controllers.pdb
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Controllers\bin\Debug\Entidades.dll
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Controllers\bin\Debug\EntityFramework.dll
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Controllers\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Controllers\bin\Debug\Entidades.pdb
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Controllers\bin\Debug\EntityFramework.xml
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Controllers\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Controllers\obj\Debug\Controllers.csproj.AssemblyReference.cache
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Controllers\obj\Debug\Controllers.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Controllers\obj\Debug\Controll.01F35609.Up2Date
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Controllers\obj\Debug\Controllers.dll
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Controllers\obj\Debug\Controllers.pdb
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Controllers\obj\Debug\Controllers.Migrations.banco.resources
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Controllers\obj\Debug\Controllers.csproj.GenerateResource.cache

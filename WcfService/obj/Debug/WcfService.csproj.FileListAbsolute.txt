@@ -16,3 +16,21 @@ C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\WcfService\
 C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\WcfService\obj\Debug\WcfService.csproj.Up2Date
 C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\WcfService\obj\Debug\WcfService.dll
 C:\Users\srgam\OneDrive\Área de Trabalho\NUTES - LUFH\SistemaOdonto\WcfService\obj\Debug\WcfService.pdb
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\WcfService\bin\WcfService.dll.config
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\WcfService\bin\WcfService.dll
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\WcfService\bin\WcfService.pdb
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\WcfService\bin\Controllers.dll
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\WcfService\bin\Entidades.dll
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\WcfService\bin\Interfaces.dll
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\WcfService\bin\EntityFramework.dll
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\WcfService\bin\Controllers.pdb
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\WcfService\bin\Controllers.dll.config
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\WcfService\bin\Entidades.pdb
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\WcfService\bin\Interfaces.pdb
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\WcfService\bin\Interfaces.dll.config
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\WcfService\bin\EntityFramework.xml
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\WcfService\obj\Debug\WcfService.csproj.AssemblyReference.cache
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\WcfService\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\WcfService\obj\Debug\WcfService.csproj.Up2Date
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\WcfService\obj\Debug\WcfService.dll
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\WcfService\obj\Debug\WcfService.pdb
