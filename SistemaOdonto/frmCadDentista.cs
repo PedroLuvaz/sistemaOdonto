@@ -88,11 +88,11 @@ namespace SistemaOdonto
             try
             {
                 ts.Text = ValidarCad();
-                if(ts.Text == "Sucesso!")
+                if (ts.Text == "Sucesso!")
                 {
-                   service.Cadastrar(objGerado());
-                   MessageBox.Show("Dentista cadastrado com sucesso!");
-                   this.Close();
+                    service.Cadastrar(objGerado());
+                    MessageBox.Show("Dentista cadastrado com sucesso!");
+                    this.Close();
                 }
             }
             catch (Exception ex)
@@ -117,6 +117,26 @@ namespace SistemaOdonto
         private void txtCRO_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
 
+        }
+
+        public void Limpar()
+        {
+            txtNome.Text = "";
+            txtEmail.Text = "";
+            txtTelefone.Text = string.Empty;
+            txtCelular.Text = string.Empty;
+            txtCRO.Text = string.Empty;
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            Limpar();
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            frmConDentista frm = new frmConDentista();
+            frm.ShowDialog();
         }
     }
 }

@@ -12,7 +12,13 @@ namespace Controllers.Context
 {
     class SistemContext : DbContext
     {
-        public SistemContext() : base("Server=DESKTOP-3AG25L3\\SQLEXPRESS; Database=odonto; Integrated Security=True;")
+        //PASSO A PASSO PARA CONFIGURAÇÃO EM DIFERENTES PCS
+        //ENABLE-MIGRATIONS
+        //ADD-MIGRATION BANCO
+        //UPDATE-DATABASE
+
+
+        public SistemContext() : base("Server=PEDRO\\SQLEXPRESS01; Database=odonto; Integrated Security=True;")
         {
         
         }

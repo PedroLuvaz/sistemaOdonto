@@ -10,3 +10,9 @@ C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Entidades\obj\Debug\Entidades.csproj.
 C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Entidades\obj\Debug\Entidades.dll
 C:\Users\Pedro Lucas\Desktop\sistemaOdonto\Entidades\obj\Debug\Entidades.pdb
+C:\Users\srgam\OneDrive\Desktop\NUTES LUFH\sistemaOdonto\Entidades\bin\Debug\Entidades.dll
+C:\Users\srgam\OneDrive\Desktop\NUTES LUFH\sistemaOdonto\Entidades\bin\Debug\Entidades.pdb
+C:\Users\srgam\OneDrive\Desktop\NUTES LUFH\sistemaOdonto\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\srgam\OneDrive\Desktop\NUTES LUFH\sistemaOdonto\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\srgam\OneDrive\Desktop\NUTES LUFH\sistemaOdonto\Entidades\obj\Debug\Entidades.dll
+C:\Users\srgam\OneDrive\Desktop\NUTES LUFH\sistemaOdonto\Entidades\obj\Debug\Entidades.pdb

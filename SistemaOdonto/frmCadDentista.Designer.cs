@@ -44,6 +44,8 @@
             ts = new ToolStripStatusLabel();
             tsNenhuma = new ToolStripStatusLabel();
             txtNome = new TextBox();
+            btnLimpar = new Button();
+            btnBuscar = new Button();
             statusStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -71,7 +73,7 @@
             lblTelefone.AutoSize = true;
             lblTelefone.Location = new Point(10, 91);
             lblTelefone.Name = "lblTelefone";
-            lblTelefone.Size = new Size(54, 15);
+            lblTelefone.Size = new Size(55, 15);
             lblTelefone.TabIndex = 3;
             lblTelefone.Text = "Telefone:";
             // 
@@ -153,7 +155,7 @@
             btnSave.Cursor = Cursors.Hand;
             btnSave.FlatAppearance.BorderSize = 0;
             btnSave.FlatStyle = FlatStyle.Flat;
-            btnSave.Location = new Point(102, 233);
+            btnSave.Location = new Point(12, 233);
             btnSave.Margin = new Padding(3, 2, 3, 2);
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(82, 50);
@@ -194,11 +196,47 @@
             txtNome.Size = new Size(154, 23);
             txtNome.TabIndex = 17;
             // 
+            // btnLimpar
+            // 
+            btnLimpar.BackColor = SystemColors.Control;
+            btnLimpar.BackgroundImage = (Image)resources.GetObject("btnLimpar.BackgroundImage");
+            btnLimpar.BackgroundImageLayout = ImageLayout.Zoom;
+            btnLimpar.Cursor = Cursors.Hand;
+            btnLimpar.FlatAppearance.BorderSize = 0;
+            btnLimpar.FlatStyle = FlatStyle.Flat;
+            btnLimpar.Location = new Point(121, 233);
+            btnLimpar.Margin = new Padding(3, 2, 3, 2);
+            btnLimpar.Name = "btnLimpar";
+            btnLimpar.Size = new Size(82, 50);
+            btnLimpar.TabIndex = 18;
+            btnLimpar.TextAlign = ContentAlignment.MiddleRight;
+            btnLimpar.UseVisualStyleBackColor = false;
+            btnLimpar.Click += btnLimpar_Click;
+            // 
+            // btnBuscar
+            // 
+            btnBuscar.BackColor = SystemColors.Control;
+            btnBuscar.BackgroundImage = (Image)resources.GetObject("btnBuscar.BackgroundImage");
+            btnBuscar.BackgroundImageLayout = ImageLayout.Zoom;
+            btnBuscar.Cursor = Cursors.Hand;
+            btnBuscar.FlatAppearance.BorderSize = 0;
+            btnBuscar.FlatStyle = FlatStyle.Flat;
+            btnBuscar.Location = new Point(222, 233);
+            btnBuscar.Margin = new Padding(3, 2, 3, 2);
+            btnBuscar.Name = "btnBuscar";
+            btnBuscar.Size = new Size(82, 50);
+            btnBuscar.TabIndex = 19;
+            btnBuscar.TextAlign = ContentAlignment.MiddleRight;
+            btnBuscar.UseVisualStyleBackColor = false;
+            btnBuscar.Click += btnBuscar_Click;
+            // 
             // frmCadDentista
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(700, 338);
+            Controls.Add(btnBuscar);
+            Controls.Add(btnLimpar);
             Controls.Add(txtNome);
             Controls.Add(statusStrip1);
             Controls.Add(btnSave);
@@ -242,5 +280,7 @@
         private ToolStripStatusLabel ts;
         private TextBox txtNome;
         private ToolStripStatusLabel tsNenhuma;
+        private Button btnLimpar;
+        private Button btnBuscar;
     }
 }
