@@ -10,23 +10,23 @@ using System.ServiceModel;
 
 namespace Interfaces
 {
-    [ServiceContract]
+    [ServiceContract] // Indica que a interface define um contrato de serviço WCF
     public interface IDentista
     {
-        [OperationContract]
-        void Cadastrar(Dentista obj);
+        [OperationContract] // Indica que o método faz parte do contrato de serviço
+        void Cadastrar(Dentista obj); // Método para cadastrar um novo dentista
 
-        [OperationContract]
-        Dentista Buscar(int id);
+        [OperationContract] // Indica que o método faz parte do contrato de serviço
+        Dentista Buscar(int id); // Método para buscar um dentista pelo ID
 
-        [OperationContract]
-        List<Dentista> Listar();
+        [OperationContract] // Indica que o método faz parte do contrato de serviço
+        List<Dentista> Listar(); // Método para listar todos os dentistas
 
-        [OperationContract]
-        void Deletar(int id);
+        [OperationContract] // Indica que o método faz parte do contrato de serviço
+        void Deletar(int id); // Método para deletar um dentista pelo ID
 
-        [OperationContract]
-        void Atualizar(Dentista objNovo);
+        [OperationContract] // Indica que o método faz parte do contrato de serviço
+        void Atualizar(Dentista objNovo); // Método para atualizar os dados de um dentista
     }
 
 }

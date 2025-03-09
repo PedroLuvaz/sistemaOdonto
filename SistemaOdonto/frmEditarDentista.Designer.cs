@@ -33,8 +33,8 @@
             statusStrip1 = new StatusStrip();
             ts = new ToolStripStatusLabel();
             tsNenhuma = new ToolStripStatusLabel();
-            button2 = new Button();
-            button1 = new Button();
+            btnExcluir = new Button();
+            btnEditar = new Button();
             txtCRO = new MaskedTextBox();
             txtCelular = new MaskedTextBox();
             txtTelefone = new MaskedTextBox();
@@ -44,7 +44,7 @@
             lblTelefone = new Label();
             lblEmail = new Label();
             lblName = new Label();
-            label1 = new Label();
+            lblCodigo = new Label();
             lblCod = new Label();
             panel1 = new Panel();
             statusStrip1.SuspendLayout();
@@ -81,35 +81,37 @@
             tsNenhuma.Size = new Size(60, 17);
             tsNenhuma.Text = "Nenhuma";
             // 
-            // button2
+            // btnExcluir
             // 
-            button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
-            button2.BackgroundImageLayout = ImageLayout.Center;
-            button2.Cursor = Cursors.Hand;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Location = new Point(168, 223);
-            button2.Margin = new Padding(3, 2, 3, 2);
-            button2.Name = "button2";
-            button2.Size = new Size(82, 50);
-            button2.TabIndex = 32;
-            button2.TextAlign = ContentAlignment.MiddleRight;
-            button2.UseVisualStyleBackColor = true;
+            btnExcluir.BackgroundImage = (Image)resources.GetObject("btnExcluir.BackgroundImage");
+            btnExcluir.BackgroundImageLayout = ImageLayout.Center;
+            btnExcluir.Cursor = Cursors.Hand;
+            btnExcluir.FlatAppearance.BorderSize = 0;
+            btnExcluir.FlatStyle = FlatStyle.Flat;
+            btnExcluir.Location = new Point(168, 223);
+            btnExcluir.Margin = new Padding(3, 2, 3, 2);
+            btnExcluir.Name = "btnExcluir";
+            btnExcluir.Size = new Size(82, 50);
+            btnExcluir.TabIndex = 32;
+            btnExcluir.TextAlign = ContentAlignment.MiddleRight;
+            btnExcluir.UseVisualStyleBackColor = true;
+            btnExcluir.Click += btnExcluir_Click;
             // 
-            // button1
+            // btnEditar
             // 
-            button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
-            button1.BackgroundImageLayout = ImageLayout.Center;
-            button1.Cursor = Cursors.Hand;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Location = new Point(54, 223);
-            button1.Margin = new Padding(3, 2, 3, 2);
-            button1.Name = "button1";
-            button1.Size = new Size(82, 50);
-            button1.TabIndex = 31;
-            button1.TextAlign = ContentAlignment.MiddleRight;
-            button1.UseVisualStyleBackColor = true;
+            btnEditar.BackgroundImage = (Image)resources.GetObject("btnEditar.BackgroundImage");
+            btnEditar.BackgroundImageLayout = ImageLayout.Center;
+            btnEditar.Cursor = Cursors.Hand;
+            btnEditar.FlatAppearance.BorderSize = 0;
+            btnEditar.FlatStyle = FlatStyle.Flat;
+            btnEditar.Location = new Point(54, 223);
+            btnEditar.Margin = new Padding(3, 2, 3, 2);
+            btnEditar.Name = "btnEditar";
+            btnEditar.Size = new Size(82, 50);
+            btnEditar.TabIndex = 31;
+            btnEditar.TextAlign = ContentAlignment.MiddleRight;
+            btnEditar.UseVisualStyleBackColor = true;
+            btnEditar.Click += btnEditar_Click;
             // 
             // txtCRO
             // 
@@ -172,7 +174,7 @@
             lblTelefone.AutoSize = true;
             lblTelefone.Location = new Point(10, 86);
             lblTelefone.Name = "lblTelefone";
-            lblTelefone.Size = new Size(54, 15);
+            lblTelefone.Size = new Size(55, 15);
             lblTelefone.TabIndex = 21;
             lblTelefone.Text = "Telefone:";
             // 
@@ -194,14 +196,14 @@
             lblName.TabIndex = 19;
             lblName.Text = "Nome:";
             // 
-            // label1
+            // lblCodigo
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(76, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(19, 15);
-            label1.TabIndex = 36;
-            label1.Text = "01";
+            lblCodigo.AutoSize = true;
+            lblCodigo.Location = new Point(76, 9);
+            lblCodigo.Name = "lblCodigo";
+            lblCodigo.Size = new Size(19, 15);
+            lblCodigo.TabIndex = 36;
+            lblCodigo.Text = "01";
             // 
             // lblCod
             // 
@@ -211,6 +213,7 @@
             lblCod.Size = new Size(46, 15);
             lblCod.TabIndex = 35;
             lblCod.Text = "Código";
+            lblCod.Click += lblCod_Click;
             // 
             // panel1
             // 
@@ -228,12 +231,12 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(700, 338);
             Controls.Add(panel1);
-            Controls.Add(label1);
+            Controls.Add(lblCodigo);
             Controls.Add(lblCod);
             Controls.Add(txtNome);
             Controls.Add(statusStrip1);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(btnExcluir);
+            Controls.Add(btnEditar);
             Controls.Add(txtCRO);
             Controls.Add(txtCelular);
             Controls.Add(txtTelefone);
@@ -244,6 +247,7 @@
             Controls.Add(lblEmail);
             Controls.Add(lblName);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "frmEditarDentista";
@@ -262,8 +266,8 @@
         private StatusStrip statusStrip1;
         private ToolStripStatusLabel ts;
         private ToolStripStatusLabel tsNenhuma;
-        private Button button2;
-        private Button button1;
+        private Button btnExcluir;
+        private Button btnEditar;
         private MaskedTextBox txtCRO;
         private MaskedTextBox txtCelular;
         private MaskedTextBox txtTelefone;
@@ -273,7 +277,7 @@
         private Label lblTelefone;
         private Label lblEmail;
         private Label lblName;
-        private Label label1;
+        private Label lblCodigo;
         private Label lblCod;
         private Panel panel1;
     }

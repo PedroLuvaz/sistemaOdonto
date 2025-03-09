@@ -28,13 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            ts = new TabControl();
             SuspendLayout();
+            // 
+            // ts
+            // 
+            ts.Location = new Point(0, 0);
+            ts.Multiline = true;
+            ts.Name = "ts";
+            ts.SelectedIndex = 0;
+            ts.Size = new Size(803, 451);
+            ts.SizeMode = TabSizeMode.Fixed;
+            ts.TabIndex = 0;
             // 
             // frmConDentista
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(ts);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "frmConDentista";
@@ -44,5 +56,7 @@
         }
 
         #endregion
+
+        private TabControl ts;
     }
 }
