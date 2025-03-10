@@ -120,3 +120,8 @@ C:\Users\srgam\OneDrive\Desktop\NUTES LUFH\sistemaOdonto\SistemaOdonto\obj\Debug
 C:\Users\srgam\OneDrive\Desktop\NUTES LUFH\sistemaOdonto\SistemaOdonto\obj\Debug\net8.0-windows\SistemaOdonto.pdb
 C:\Users\srgam\OneDrive\Desktop\NUTES LUFH\sistemaOdonto\SistemaOdonto\obj\Debug\net8.0-windows\SistemaOdonto.genruntimeconfig.cache
 C:\Users\srgam\OneDrive\Desktop\NUTES LUFH\sistemaOdonto\SistemaOdonto\obj\Debug\net8.0-windows\ref\SistemaOdonto.dll
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\SistemaOdonto\obj\Debug\net8.0-windows\SistemaOdonto.frmConDentista.resources
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\SistemaOdonto\obj\Debug\net8.0-windows\SistemaOdonto.frmEditarDentista.resources
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\SistemaOdonto\obj\Debug\net8.0-windows\SistemaOdonto.frmCadPaciente.resources
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\SistemaOdonto\obj\Debug\net8.0-windows\SistemaOdonto.frmConPacientes.resources
+C:\Users\Pedro Lucas\Desktop\sistemaOdonto\SistemaOdonto\obj\Debug\net8.0-windows\SistemaOdonto.frmEditarPaciente.resources

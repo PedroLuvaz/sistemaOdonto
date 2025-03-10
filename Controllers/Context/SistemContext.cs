@@ -20,7 +20,7 @@ namespace Controllers.Context
         //PARA ATUALIZAÇÃO DE NOVOS CAMPOS EM ENTIDADES JÁ EXISTENTES REFAZER O PASSO A PASSO ACIMA.
 
         // Construtor que define a string de conexão com o banco de dados
-        public SistemContext() : base("Server=PEDRO\\SQLEXPRESS01; Database=odonto; Integrated Security=True;")
+        public SistemContext() : base("Server=DESKTOP-3AG25L3\\SQLEXPRESS; Database=odonto; Integrated Security=True;")
         {
 
         }

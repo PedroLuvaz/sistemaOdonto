@@ -4,10 +4,19 @@
     <Compile Update="frmCadDentista.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmCadPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmConDentista.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmConPacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmEditarDentista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmEditarPaciente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmMain.cs">

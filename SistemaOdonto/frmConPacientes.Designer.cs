@@ -1,6 +1,6 @@
 ﻿namespace SistemaOdonto
 {
-    partial class frmConDentista
+    partial class frmConPacientes
     {
         /// <summary>
         /// Required designer variable.
@@ -28,32 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmConDentista));
             ts = new TabControl();
             SuspendLayout();
             // 
             // ts
             // 
-            ts.Location = new Point(0, 0);
+            ts.Location = new Point(-1, 0);
             ts.Multiline = true;
             ts.Name = "ts";
             ts.SelectedIndex = 0;
             ts.Size = new Size(803, 451);
             ts.SizeMode = TabSizeMode.Fixed;
-            ts.TabIndex = 0;
+            ts.TabIndex = 1;
             // 
-            // frmConDentista
+            // frmConPacientes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(ts);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
-            Name = "frmConDentista";
+            MinimizeBox = false;
+            Name = "frmConPacientes";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Dentistas";
+            Text = "Pacientes";
             ResumeLayout(false);
         }
 

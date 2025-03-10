@@ -138,18 +138,12 @@
           "Entidades": "1.0.0"
         },
         "runtime": {
-          "Controllers.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Controllers.dll": {}
         }
       },
       "Entidades/1.0.0": {
         "runtime": {
-          "Entidades.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Entidades.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -157,10 +151,7 @@
           "Entidades": "1.0.0"
         },
         "runtime": {
-          "Interfaces.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Interfaces.dll": {}
         }
       },
       "WcfService/1.0.0": {
@@ -170,10 +161,7 @@
           "Interfaces": "1.0.0"
         },
         "runtime": {
-          "WcfService.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "WcfService.dll": {}
         }
       }
     }

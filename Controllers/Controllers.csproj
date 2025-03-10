@@ -63,6 +63,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorios\DentistaRep.cs" />
+    <Compile Include="Repositorios\PacienteRep.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202503061536480_banco.resx">
