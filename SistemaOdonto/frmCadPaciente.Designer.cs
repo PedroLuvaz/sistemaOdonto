@@ -144,10 +144,11 @@
             txtCEP.CutCopyMaskFormat = MaskFormat.ExcludePromptAndLiterals;
             txtCEP.Location = new Point(104, 123);
             txtCEP.Margin = new Padding(3, 2, 3, 2);
-            txtCEP.Mask = "00.000-00";
+            txtCEP.Mask = "00000-000";
             txtCEP.Name = "txtCEP";
             txtCEP.Size = new Size(154, 23);
             txtCEP.TabIndex = 28;
+            txtCEP.MaskInputRejected += txtCEP_MaskInputRejected;
             // 
             // txtCelular
             // 
@@ -168,6 +169,7 @@
             txtTelefone.Size = new Size(154, 23);
             txtTelefone.TabIndex = 26;
             txtTelefone.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
+            txtTelefone.MaskInputRejected += txtTelefone_MaskInputRejected;
             // 
             // txtEmail
             // 
@@ -201,7 +203,7 @@
             lblTelefone.AutoSize = true;
             lblTelefone.Location = new Point(10, 74);
             lblTelefone.Name = "lblTelefone";
-            lblTelefone.Size = new Size(54, 15);
+            lblTelefone.Size = new Size(55, 15);
             lblTelefone.TabIndex = 22;
             lblTelefone.Text = "Telefone:";
             // 
@@ -289,7 +291,7 @@
             label3.AutoSize = true;
             label3.Location = new Point(287, 21);
             label3.Name = "label3";
-            label3.Size = new Size(35, 15);
+            label3.Size = new Size(34, 15);
             label3.TabIndex = 41;
             label3.Text = "Sexo:";
             label3.Click += label3_Click;
@@ -302,6 +304,7 @@
             cbSexo.Name = "cbSexo";
             cbSexo.Size = new Size(54, 23);
             cbSexo.TabIndex = 42;
+            cbSexo.SelectedIndexChanged += cbSexo_SelectedIndexChanged;
             // 
             // frmCadPaciente
             // 

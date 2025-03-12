@@ -113,6 +113,7 @@
             btnExcluir.TabIndex = 47;
             btnExcluir.TextAlign = ContentAlignment.MiddleRight;
             btnExcluir.UseVisualStyleBackColor = true;
+            btnExcluir.Click += btnExcluir_Click;
             // 
             // btnEditar
             // 
@@ -128,6 +129,7 @@
             btnEditar.TabIndex = 46;
             btnEditar.TextAlign = ContentAlignment.MiddleRight;
             btnEditar.UseVisualStyleBackColor = true;
+            btnEditar.Click += btnEditar_Click;
             // 
             // cbSexo
             // 
@@ -143,7 +145,7 @@
             label3.AutoSize = true;
             label3.Location = new Point(288, 50);
             label3.Name = "label3";
-            label3.Size = new Size(35, 15);
+            label3.Size = new Size(34, 15);
             label3.TabIndex = 68;
             label3.Text = "Sexo:";
             // 
@@ -210,7 +212,7 @@
             txtCEP.CutCopyMaskFormat = MaskFormat.ExcludePromptAndLiterals;
             txtCEP.Location = new Point(105, 152);
             txtCEP.Margin = new Padding(3, 2, 3, 2);
-            txtCEP.Mask = "00.000-00";
+            txtCEP.Mask = "00000-000";
             txtCEP.Name = "txtCEP";
             txtCEP.Size = new Size(154, 23);
             txtCEP.TabIndex = 60;
@@ -266,7 +268,7 @@
             lblTelefone.AutoSize = true;
             lblTelefone.Location = new Point(11, 103);
             lblTelefone.Name = "lblTelefone";
-            lblTelefone.Size = new Size(54, 15);
+            lblTelefone.Size = new Size(55, 15);
             lblTelefone.TabIndex = 54;
             lblTelefone.Text = "Telefone:";
             // 
@@ -328,6 +330,7 @@
             Controls.Add(btnExcluir);
             Controls.Add(btnEditar);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "frmEditarPaciente";

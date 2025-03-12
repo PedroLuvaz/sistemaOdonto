@@ -28,5 +28,17 @@ namespace SistemaOdonto
             frmConDentista frm = new frmConDentista();
             frm.ShowDialog();
         }
+
+        private void menuPaciente_Click(object sender, EventArgs e)
+        {
+            frmCadPaciente frm = new frmCadPaciente();
+            frm.ShowDialog();
+        }
+
+        private void menuAGPaciente_Click(object sender, EventArgs e)
+        {
+            frmConPacientes frm = new frmConPacientes();
+            frm.ShowDialog();
+        }
     }
 }

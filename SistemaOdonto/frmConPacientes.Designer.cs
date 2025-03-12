@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmConPacientes));
             ts = new TabControl();
             SuspendLayout();
             // 
@@ -48,6 +49,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(ts);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "frmConPacientes";

@@ -125,3 +125,6 @@ C:\Users\Pedro Lucas\Desktop\sistemaOdonto\SistemaOdonto\obj\Debug\net8.0-window
 C:\Users\Pedro Lucas\Desktop\sistemaOdonto\SistemaOdonto\obj\Debug\net8.0-windows\SistemaOdonto.frmCadPaciente.resources
 C:\Users\Pedro Lucas\Desktop\sistemaOdonto\SistemaOdonto\obj\Debug\net8.0-windows\SistemaOdonto.frmConPacientes.resources
 C:\Users\Pedro Lucas\Desktop\sistemaOdonto\SistemaOdonto\obj\Debug\net8.0-windows\SistemaOdonto.frmEditarPaciente.resources
+C:\Users\srgam\OneDrive\Desktop\NUTES LUFH\sistemaOdonto\SistemaOdonto\obj\Debug\net8.0-windows\SistemaOdonto.frmCadPaciente.resources
+C:\Users\srgam\OneDrive\Desktop\NUTES LUFH\sistemaOdonto\SistemaOdonto\obj\Debug\net8.0-windows\SistemaOdonto.frmConPacientes.resources
+C:\Users\srgam\OneDrive\Desktop\NUTES LUFH\sistemaOdonto\SistemaOdonto\obj\Debug\net8.0-windows\SistemaOdonto.frmEditarPaciente.resources

@@ -1,19 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\SistemaOdonto\\SistemaOdonto.csproj": {}
+    "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\SistemaOdonto\\SistemaOdonto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Controllers\\Controllers.csproj": {
+    "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Controllers\\Controllers.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Controllers\\Controllers.csproj",
+        "projectUniqueName": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Controllers\\Controllers.csproj",
         "projectName": "Controllers",
-        "projectPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Controllers\\Controllers.csproj",
+        "projectPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Controllers\\Controllers.csproj",
+        "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Entidades\\Entidades.csproj"
+              "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -23,11 +24,12 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Entidades\\Entidades.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Entidades\\Entidades.csproj",
+        "projectPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Entidades\\Entidades.csproj",
+        "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -38,16 +40,17 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Interfaces\\Interfaces.csproj": {
+    "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Interfaces\\Interfaces.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Interfaces\\Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Interfaces\\Interfaces.csproj",
         "projectName": "Interfaces",
-        "projectPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Interfaces\\Interfaces.csproj",
+        "projectPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Interfaces\\Interfaces.csproj",
+        "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Entidades\\Entidades.csproj"
+              "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -57,17 +60,21 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\SistemaOdonto\\SistemaOdonto.csproj": {
+    "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\SistemaOdonto\\SistemaOdonto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\SistemaOdonto\\SistemaOdonto.csproj",
+        "projectUniqueName": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\SistemaOdonto\\SistemaOdonto.csproj",
         "projectName": "SistemaOdonto",
-        "projectPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\SistemaOdonto\\SistemaOdonto.csproj",
-        "packagesPath": "C:\\Users\\Pedro Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\SistemaOdonto\\obj\\",
+        "projectPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\SistemaOdonto\\SistemaOdonto.csproj",
+        "packagesPath": "C:\\Users\\srgam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\SistemaOdonto\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Pedro Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\srgam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -81,17 +88,17 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Controllers\\Controllers.csproj": {
-                "projectPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Controllers\\Controllers.csproj"
+              "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Controllers\\Controllers.csproj": {
+                "projectPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Controllers\\Controllers.csproj"
               },
-              "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Entidades\\Entidades.csproj"
+              "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Entidades\\Entidades.csproj"
               },
-              "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Interfaces\\Interfaces.csproj"
+              "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Interfaces\\Interfaces.csproj"
               },
-              "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\WcfService\\WcfService.csproj": {
-                "projectPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\WcfService\\WcfService.csproj"
+              "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\WcfService\\WcfService.csproj": {
+                "projectPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\WcfService\\WcfService.csproj"
               }
             }
           }
@@ -105,7 +112,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -135,26 +143,27 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\WcfService\\WcfService.csproj": {
+    "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\WcfService\\WcfService.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\WcfService\\WcfService.csproj",
+        "projectUniqueName": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\WcfService\\WcfService.csproj",
         "projectName": "WcfService",
-        "projectPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\WcfService\\WcfService.csproj",
+        "projectPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\WcfService\\WcfService.csproj",
+        "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Controllers\\Controllers.csproj": {
-                "projectPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Controllers\\Controllers.csproj"
+              "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Controllers\\Controllers.csproj": {
+                "projectPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Controllers\\Controllers.csproj"
               },
-              "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Entidades\\Entidades.csproj"
+              "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Entidades\\Entidades.csproj"
               },
-              "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Interfaces\\Interfaces.csproj"
+              "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Interfaces\\Interfaces.csproj"
               }
             }
           }

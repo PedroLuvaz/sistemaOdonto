@@ -68,20 +68,21 @@
             // menuDentista
             // 
             menuDentista.Name = "menuDentista";
-            menuDentista.Size = new Size(180, 22);
+            menuDentista.Size = new Size(121, 22);
             menuDentista.Text = "Dentista";
             menuDentista.Click += menuDentista_Click;
             // 
             // menuPaciente
             // 
             menuPaciente.Name = "menuPaciente";
-            menuPaciente.Size = new Size(180, 22);
+            menuPaciente.Size = new Size(121, 22);
             menuPaciente.Text = "Paciente";
+            menuPaciente.Click += menuPaciente_Click;
             // 
             // menuConsulta
             // 
             menuConsulta.Name = "menuConsulta";
-            menuConsulta.Size = new Size(180, 22);
+            menuConsulta.Size = new Size(121, 22);
             menuConsulta.Text = "Consulta";
             // 
             // agendasToolStripMenuItem
@@ -104,6 +105,7 @@
             menuAGPaciente.Name = "menuAGPaciente";
             menuAGPaciente.Size = new Size(180, 22);
             menuAGPaciente.Text = "Pacientes";
+            menuAGPaciente.Click += menuAGPaciente_Click;
             // 
             // menuAGConsultas
             // 

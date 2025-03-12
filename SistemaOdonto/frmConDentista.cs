@@ -116,7 +116,6 @@ namespace SistemaOdonto
                     // Abre o formulário de edição do dentista
                     var form = new frmEditarDentista(obj);
                     form.ShowDialog();
-                    this.Close();
 
                     // Verifica o status do formulário de edição após o fechamento
                     if (form.status == "Apagado")
