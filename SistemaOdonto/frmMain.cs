@@ -40,5 +40,11 @@ namespace SistemaOdonto
             frmConPacientes frm = new frmConPacientes();
             frm.ShowDialog();
         }
+
+        private void menuConsulta_Click(object sender, EventArgs e)
+        {
+            frmCadConsulta frm = new frmCadConsulta();
+            frm.ShowDialog();
+        }
     }
 }
