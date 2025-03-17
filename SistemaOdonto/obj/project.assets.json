@@ -1124,24 +1124,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\srgam\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Pedro Lucas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\SistemaOdonto\\SistemaOdonto.csproj",
+      "projectUniqueName": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\SistemaOdonto\\SistemaOdonto.csproj",
       "projectName": "SistemaOdonto",
-      "projectPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\SistemaOdonto\\SistemaOdonto.csproj",
-      "packagesPath": "C:\\Users\\srgam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\SistemaOdonto\\obj\\",
+      "projectPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\SistemaOdonto\\SistemaOdonto.csproj",
+      "packagesPath": "C:\\Users\\Pedro Lucas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\SistemaOdonto\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\srgam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Pedro Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1155,17 +1150,17 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Controllers\\Controllers.csproj": {
-              "projectPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Controllers\\Controllers.csproj"
+            "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Controllers\\Controllers.csproj": {
+              "projectPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Controllers\\Controllers.csproj"
             },
-            "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Entidades\\Entidades.csproj"
+            "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Entidades\\Entidades.csproj"
             },
-            "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Interfaces\\Interfaces.csproj": {
-              "projectPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\Interfaces\\Interfaces.csproj"
+            "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\Interfaces\\Interfaces.csproj"
             },
-            "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\WcfService\\WcfService.csproj": {
-              "projectPath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\WcfService\\WcfService.csproj"
+            "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\WcfService\\WcfService.csproj": {
+              "projectPath": "C:\\Users\\Pedro Lucas\\Desktop\\sistemaOdonto\\WcfService\\WcfService.csproj"
             }
           }
         }
@@ -1179,8 +1174,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -1210,7 +1204,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
