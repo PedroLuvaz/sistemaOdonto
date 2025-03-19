@@ -46,5 +46,11 @@ namespace SistemaOdonto
             frmCadConsulta frm = new frmCadConsulta();
             frm.ShowDialog();
         }
+
+        private void menuAGConsultas_Click(object sender, EventArgs e)
+        {
+            frmConsultas frm = new frmConsultas();
+            frm.ShowDialog();
+        }
     }
 }

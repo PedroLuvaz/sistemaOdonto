@@ -79,6 +79,7 @@ namespace SistemaOdonto
                     obj.Celular = txtCelular.Text != "" ? Convert.ToInt64(txtCelular.Text) : 0;
                     this.obj.CRO = txtCRO.Text;
                     service.Atualizar(this.obj);
+                    MessageBox.Show("Edição feita com sucesso!");
                     this.Close();
                 }
             }

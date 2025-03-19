@@ -125,6 +125,7 @@
             dtHora.Format = DateTimePickerFormat.Custom;
             dtHora.Location = new Point(351, 80);
             dtHora.Name = "dtHora";
+            dtHora.ShowUpDown = true;
             dtHora.Size = new Size(146, 23);
             dtHora.TabIndex = 50;
             // 
@@ -152,6 +153,7 @@
             btnBuscar.TabIndex = 53;
             btnBuscar.TextAlign = ContentAlignment.MiddleRight;
             btnBuscar.UseVisualStyleBackColor = false;
+            btnBuscar.Click += btnBuscar_Click;
             // 
             // btnLimpar
             // 
@@ -168,6 +170,7 @@
             btnLimpar.TabIndex = 52;
             btnLimpar.TextAlign = ContentAlignment.MiddleRight;
             btnLimpar.UseVisualStyleBackColor = false;
+            btnLimpar.Click += btnLimpar_Click;
             // 
             // btnSave
             // 
@@ -229,6 +232,7 @@
             Controls.Add(txtAnotacoes);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "frmCadConsulta";
             StartPosition = FormStartPosition.CenterScreen;

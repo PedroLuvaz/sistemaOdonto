@@ -97,22 +97,23 @@
             // menuAgendasDentista
             // 
             menuAgendasDentista.Name = "menuAgendasDentista";
-            menuAgendasDentista.Size = new Size(126, 22);
+            menuAgendasDentista.Size = new Size(180, 22);
             menuAgendasDentista.Text = "Dentistas";
             menuAgendasDentista.Click += menuAgendasDentista_Click;
             // 
             // menuAGPaciente
             // 
             menuAGPaciente.Name = "menuAGPaciente";
-            menuAGPaciente.Size = new Size(126, 22);
+            menuAGPaciente.Size = new Size(180, 22);
             menuAGPaciente.Text = "Pacientes";
             menuAGPaciente.Click += menuAGPaciente_Click;
             // 
             // menuAGConsultas
             // 
             menuAGConsultas.Name = "menuAGConsultas";
-            menuAGConsultas.Size = new Size(126, 22);
+            menuAGConsultas.Size = new Size(180, 22);
             menuAGConsultas.Text = "Consultas";
+            menuAGConsultas.Click += menuAGConsultas_Click;
             // 
             // btnAjuda
             // 

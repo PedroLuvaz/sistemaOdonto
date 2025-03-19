@@ -154,5 +154,16 @@ namespace SistemaOdonto
                 MessageBox.Show("Error ao salvar" + ex.Message);
             }
         }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            frmConsultas frm = new frmConsultas();
+            frm.ShowDialog();
+        }
     }
 }

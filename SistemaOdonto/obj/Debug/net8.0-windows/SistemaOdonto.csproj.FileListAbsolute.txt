@@ -129,3 +129,4 @@ C:\Users\srgam\OneDrive\Desktop\NUTES LUFH\sistemaOdonto\SistemaOdonto\obj\Debug
 C:\Users\srgam\OneDrive\Desktop\NUTES LUFH\sistemaOdonto\SistemaOdonto\obj\Debug\net8.0-windows\SistemaOdonto.frmConPacientes.resources
 C:\Users\srgam\OneDrive\Desktop\NUTES LUFH\sistemaOdonto\SistemaOdonto\obj\Debug\net8.0-windows\SistemaOdonto.frmEditarPaciente.resources
 C:\Users\srgam\OneDrive\Desktop\NUTES LUFH\sistemaOdonto\SistemaOdonto\obj\Debug\net8.0-windows\SistemaOdonto.frmCadConsulta.resources
+C:\Users\srgam\OneDrive\Desktop\NUTES LUFH\sistemaOdonto\SistemaOdonto\obj\Debug\net8.0-windows\SistemaOdonto.frmConsultas.resources
