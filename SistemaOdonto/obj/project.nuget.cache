@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8NfsTJsR0Vc=",
+  "dgSpecHash": "C52/NTw8iXI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\srgam\\OneDrive\\Desktop\\NUTES LUFH\\sistemaOdonto\\SistemaOdonto\\SistemaOdonto.csproj",
+  "projectFilePath": "C:\\Users\\srgam\\OneDrive\\Área de Trabalho\\NUTES - LUFH\\SistemaOdonto\\SistemaOdonto\\SistemaOdonto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\srgam\\.nuget\\packages\\entityframework\\6.5.1\\entityframework.6.5.1.nupkg.sha512",
     "C:\\Users\\srgam\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
